@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:padding="18dp">
+
+    <TextView
+        android:id="@+id/h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Running Tasks"
+        android:textColor="@color/accent"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent foreground apps &amp; running processes"
+        android:textColor="@color/muted"
+        android:textSize="13sp"
+        android:paddingBottom="12dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="never"/>
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Refresh"
+        android:backgroundTint="@color/accent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"/>
+</LinearLayout>

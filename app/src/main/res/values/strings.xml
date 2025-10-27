@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RunningTasks2</string>
+    <string name="title_running_tasks">Running Tasks</string>
+    <string name="subtitle_recent">Recent foreground apps &amp; running processes</string>
+    <string name="grant_usage">Grant Usage Access via settings (button below).</string>
+    <string name="instructions">Tap Kill to attempt stop background work, or open app info to force-stop.</string>
+    <string name="refresh">Refresh</string>
+    <string name="kill">Kill</string>
+    <string name="last_seen">Last seen: %1$s</string>
+</resources>
